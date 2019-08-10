@@ -49,7 +49,7 @@ module.exports = [
     },
     externals: {
       three: 'THREE',
-      'three/examples/jsm/loaders/GLTFLoader': 'THREE'
+      'three/examples/jsm/loaders/GLTFLoader': 'three/examples/jsm/loaders/GLTFLoader'
     },
   }),
 ];
